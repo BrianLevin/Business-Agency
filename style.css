@@ -394,5 +394,7 @@
     font-size: 5rem;
     color: #bbb;
   }
-
+  .video-wrapper:hover .controls {
+    transform: translateY(0);
+  }
   /* End of Section 2 */
