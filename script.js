@@ -45,7 +45,7 @@ const playPause = () => {
 
   import Swiper from 'swiper/swiper-bundle.esm.js';
   import 'swiper/swiper-bundle.css';
-  var swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.swiper', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
