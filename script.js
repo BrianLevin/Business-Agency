@@ -41,3 +41,21 @@ const playPause = () => {
     } 
   })
   // End of Section 2 Video
+
+
+  import Swiper from 'swiper/swiper-bundle.esm.js';
+  import 'swiper/swiper-bundle.css';
+  var swiper = new Swiper('.swiper', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 70,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+  
+  });
